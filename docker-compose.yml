@@ -15,8 +15,7 @@ services:
   mailhog:
     image: mailhog/mailhog
     ports:
-     - "9025:8025"
-    
+     - "9025:8025"    
 
 volumes:
     nagiosetc:
